@@ -44,4 +44,4 @@ jobs:
         run: npm install -g surge
 
       - name: deploying surge
-        run: surge ./build daily-crack.surge.sh token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build bootcampasim2.surge.sh token ${{secrets.SURGE_TOKEN}}
